@@ -121,8 +121,9 @@
     .landing-page{
         padding: var(--paddding-2);
     }
-    .fa-bars{
-        display: block;
+    .fa-bars, .fa-xmark{
+        display: flex;
+
     }
     .logo-n-links nav{
         position: absolute;
@@ -143,6 +144,7 @@
         width: 100%;
         text-align: center;
         padding-bottom: 1rem;
+        display: flex;
     }
     .icon-n-button button{
         display: none;
